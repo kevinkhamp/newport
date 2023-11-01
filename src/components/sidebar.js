@@ -27,7 +27,7 @@ const Sidebar = () => {
               <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="table">Calendar</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="table">Reminders</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="https://chat.openai.com/" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="user">Ask ChatGPT</CDBSidebarMenuItem>
